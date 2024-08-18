@@ -10,4 +10,4 @@ def home(request):
     from_email="sanchita15pa@gmail.com",
     recipient_list=["himanshimate9@gmail.com"]
     send_mail=(subject,message,from_email,recipient_list)
-    return HttpResponse("done")
+    return HttpResponse("done success")
